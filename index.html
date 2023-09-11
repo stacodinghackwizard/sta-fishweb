@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My fish Web</title>
+    <link rel="stylesheet" href="fishweb.css">
+    <link rel="stylesheet" href="font-awesome-css/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <a href="#home" class="fa fa-chevron-up chevron-up"></a>
+        <div class="nav">
+            <div class="head">
+                <p class="logo">
+                    <img src="fishImg/fish1.jpg">
+                    <span>Major Fish</span>
+                </p>
+            </div>
+            <div class="navbar">
+                <a href="#home" class="home" onclick="openLink('home')">home</a>
+                <a href="#category">category</a>
+                <a href="#products">product</a>
+                <a href="#deal">deal</a>
+                <a href="#contact">contact</a>
+                
+            </div>
+        </div>
+        <div class="textbox">
+            <div class="header">
+                <div class="text-flex">
+                    <a href="#" class="icon-menu">&#9776;</a>
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="icon-bar">
+                        <i class="fa fa-shopping-cart shop-cart" onclick="openLink('cartOpen')"></i>
+                        <i class="fa fa-heart" onclick="openLink('documentOpen')"></i>
+                        <i class="fa fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-content">
+                
+                <div class="tab-Contents toggle" id="home">
+                    <div class="home">
+                        <div class="home-container">
+                            <div class="home-img">
+                                <img src="fishImg/fishimg13.jpg" alt="">
+                            </div>
+                            <div class="home-text">
+                                <p>Fresh And Organic</p>
+                                <h2>Your Daily Fresh Fish</h2>
+                                <a href="#" class="btn">Get started</a>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                    <div class="home-boxes section padd-15">
+                        <div class="home-box">
+                            <img src="FishImg/fish1.jpg">
+                            <div class="hom-box-text">
+                                <h4>special offer</h4>
+                                <a href="#" class="btn">check out</a>
+                            </div>
+                        </div>
+                        <div class="home-box">
+                            <img src="FishImg/fishIma3.jpg">
+                            <div class="hom-box-text">
+                                <h4>limited offer</h4>
+                                <a href="#" class="btn">check out</a>
+                            </div>
+                        </div>
+                        <div class="home-box">
+                            <img src="FishImg/fishIm2.jpg">
+                            <div class="hom-box-text">
+                                <h4>Premium offer</h4>
+                                <a href="#" class="btn">check out</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="category section padd-top" id="category">
+                        <div class="padd-15">
+                            <h2 class="category-title padd-top">shop by <span>category</span></h2>
+                            <div class="category-boxes">
+                                <div class="category-box">
+                                    <h2>fish fry</h2>
+                                    <h5>upto 50% off</h5>
+                                    <div class="cate-img">
+                                        <img src="FishImg/fishIm6.jpg" alt="">
+                                    </div>
+                                    <a href="#" class="btn">Shop now</a>
+                                </div>
+                                <div class="category-box">
+                                    <h2>fish Curry</h2>
+                                    <h5>upto 44% off</h5>
+                                    <div class="cate-img">
+                                        <img src="FishImg/fishIm11.jpg" alt="">
+                                    </div>
+                                    <a href="#" class="btn">Shop now</a>
+                                </div>
+                                <div class="category-box">
+                                    <h2>Sea Prawn</h2>
+                                    <h5>upto 35% off</h5>
+                                    <div class="cate-img">
+                                        <img src="FishImg/fishImg10.jpg" alt="">
+                                    </div>
+                                    <a href="#" class="btn">Shop now</a>
+                                </div>
+                                <div class="category-box">
+                                    <h2>sea fish</h2>
+                                    <h5>upto 50% off</h5>
+                                    
+                                    <div class="cate-img">
+                                        <img src="FishImg/fishImg8.jpg" alt="">
+                                    </div>
+                                    <a href="#" class="btn">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="products section" id="products">
+                        <div class="padd-15">
+                            <h2 class="products-title">latest<span> products</span></h2>
+                            <div class="products-boxes">
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishIm11.jpg" alt="" class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">fish Curry</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N100.90</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishImg12.jpg" alt="" class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">Titus</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N150</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishIma3.jpg" alt="" class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">fish Curr</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N400</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishIm4.jpg" alt="" class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">fish Cury</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N100</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div class="pro-img">
+                                        <img src="FishImg/fishIm5.jpg" alt="">
+                                    </div>
+                                    <h2 class="pro-title">fish Crry</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N250</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishImage.jpg" alt=""class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">Dog fish</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N 140</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishIm7.jpg" alt="" class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">fish Monkey</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N 130</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishImg8.jpg" alt="" class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">fish urry</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N 450</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                                <div class="products-box">
+                                    <div class="display">
+                                        <p>-33%</p>
+                                    </div>
+                                    <div>
+                                        <img src="FishImg/fishImg9.jpg" alt=""class="pro-img">
+                                    </div>
+                                    <h2 class="pro-title">Nudef Fish</h2>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="price">N340</span>
+                                    <div class="input">
+                                        <span>quantity</span>
+                                        <input type="number" value="1">
+                                        <span>/kg</span>
+                                    </div>
+                                    <a href="#product" class="btn add-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="deal section" id="deal">
+                        <div class="padd-15">
+                            <div class="deal-content">
+                                <h2>deal of the day</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quos iste sit minima nesciunt <br> dolorum ullam doloremque soluta excepturi necessitatibus quam maxime veniam, nemo, magni pariatur <br> accusantium modi debitis perferendis distinctio fugit! Animi nesciunt voluptatibus sequi error libero, <br> et recusandae quis! Temporibus commodi nulla doloremque.
+                                </p>
+                                <div class="deal-boxes flex-dir">
+                                    <div class="deal-box">
+                                        <span class="deal-num">132</span>
+                                        <span class="deal-day">day</span>
+                                    </div>
+                                    <div class="deal-box">
+                                        <span class="deal-num">11</span>
+                                        <span class="deal-day">hour</span>
+                                    </div>
+                                    <div class="deal-box">
+                                        <span class="deal-num">33</span>
+                                        <span class="deal-day">minute</span>
+                                    </div>
+                                    <div class="deal-box">
+                                        <span class="deal-num">9</span>
+                                        <span class="deal-day">second</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn">check the deal</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact section" id="contact">
+                        <div class="padd-15">
+                            <h2 class="category-title padd-top"><span>contact</span> us</h2>
+                            <form>
+                                <div class="flex-box">
+                                    <input type="text" placeholder="name" required autofocus  id='nameInput'>
+                                    <input type="email" placeholder="email" required id="emailInput">
+                                </div>
+                                <div class="flex-box">
+                                    <input type="number" placeholder="number" required id="numberInput">
+                                    <input type="text" placeholder="subject" required id="subjectInput">
+                                </div>
+                                <textarea rows="10" cols="30" id="textareaInput">Message</textarea>
+                                <button class="btn" type="button"  onclick="documentPage()">send message</button>
+                            </form>
+                        </div>
+                        <div class="padd-15 subscribe contact-flex">
+                            <div class="contact-content">
+                                <h2>Subscribe us for latest updates</h2>
+                                <div class="contact-input">
+                                    <input type="email" placeholder="enter your email" required>
+                                    <button>subscibe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+
+                <div class="padd-16 tab-Contents" id="cartOpen">
+                    <div class="table">
+                        <h2>Your Product Items</h2>
+                        <div class="inside-table">
+                            <div class="table-header">
+                                <div>Item Image</div>
+                                <div>Item Name</div>
+                                <div>Item Price</div>
+                                <div>Item quantity</div>
+                                
+                                <div>Item Remove</div>
+                            </div>
+                                    
+                            <div class="cart-content">
+                                
+                            </div>
+                        </div>
+                        <br>
+                        <div class="table-total">
+                            <div class="total-title">Total for all Items:</div>
+                            <div class="total-price">N 0</div>
+                        </div>
+                        <div class="buy-div">
+                            <button type="submit" class="buy-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="padd-16 tab-Contents" id="documentOpen">
+                    <div style="padding-top: 5rem;">
+                        <h2 style="text-align: center;width: 100%;padding: 20px;">Your Details</h2>
+                        <div class="docu-page">
+                            <div class="docu-flex">
+                                <div class="div-title">Name:</div>
+                                <p class="hi" id="userName"></p>
+                            </div>
+                            <div class="docu-flex">
+                                <div class="div-title">Email:</div>
+                                <p class="hi" id="userEmail"></p>
+                            </div>
+                            <div class="docu-flex">
+                                <div class="div-title">Number:</div>
+                                <p id="userNumber" class="hi"></p>
+                            </div>
+                            <div class="docu-flex">
+                                <div class="div-title">Subject:</div>
+                                <p id="userSubject" class="hi"></p>
+                            </div>
+                            <div class="docu-flex">
+                                <div class="div-title">Message:</div>
+                                <p id="userMessage" class="hi"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer section">
+                    <div class="padd-15 boxes">
+                        <div class="box box1">
+                            <i class="fa fa-address-book"></i>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Minus recusandae earum commodi fuga magni a est <br> cupiditate qui sapiente, corporis assumenda sint officiis rem <br> laudantium totam tenetur quia nisi? Beatae, veniam vel distinctio <br> dolores iusto rem sequi? <br> Similique ducimus voluptatem blanditiis. <br> Facilis minus inventore dignissimos facere sint quasi <br> error cupiditate!
+                            </p>
+                            <div class="footer-boxes">
+                                <span class="foo-box fa fa-facebook"></span>
+                                <span class="foo-box fa fa-twitter"></span>
+                                <span class="foo-box fa fa-instagram"></span>
+                                <span class="foo-box fa fa-youtube"></span>
+                            </div>
+                        </div><br><br>
+                        <div class="box">
+                            <h4>our location</h4>
+                            <div class="box box2">
+                                <a href="#">usa</a>
+                                <a href="#">india</a>
+                                <a href="#">china</a>
+                                <a href="#">turkey</a>
+                                <a href="#">azerbija</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>quick links</h4>
+                            <div class="box">
+                                <a href="#home">home</a>
+                                <a href="#category">category</a>
+                                <a href="#products">product</a>
+                                <a href="#deal">deal</a>
+                                <a href="#contact">contact</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>download</h4>
+                            <div class="box">
+                                <a href="#">google play</a>
+                                <a href="#">window 10</a>
+                                <a href="#">app store</a>
+                                
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="padd-15">
+                        <div class="bott-footer">
+                            <p>created by <span>S.T.A</span> || All Right Copy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        
+            </div>
+
+        </div>
+    </div>
+
+    <script src="fishweb.js"></script>
+</body>
+</html>
